@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 MAINTAINER skysider <skysider@163.com>
-
+ADD sources.list /etc/apt/
 RUN apt-get -y update && \
 	apt-get install -y \
 	qemu-user \
