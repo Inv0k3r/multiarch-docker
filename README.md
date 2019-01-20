@@ -1,9 +1,11 @@
 Multiarchdocker
 =========
 A docker environment which could run and debug multiarch program, such as mips, arm
-
+### 更新 2019/01/20
+加了个阿里云的源, build起来比较快
 ### Usage
-
+build:
+	docker build -t multiarch .
 run docker:
 
 	docker run -it \
