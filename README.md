@@ -5,7 +5,7 @@ A docker environment which could run and debug multiarch program, such as mips, 
 加了个阿里云的源, build起来比较快
 ### Usage
 build:
-	docker build -t multiarch .
+	docker build -t skysider/multiarch-docker .
 run docker:
 
 	docker run -it \
